@@ -1,0 +1,750 @@
+.header {
+	width: 100%;
+	background-color: rgb(222,122,5);
+	background-image: url(../img/header-bubles4.png);
+	color: white;
+}
+
+.wrap {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(222,122,5,0.6);
+}
+.wrap1 {
+	width: 75%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.button {
+	color: rgba(255, 255, 255,0.5);
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0,0);
+    border: 1px solid rgba(255, 255, 255,0.5);
+}
+
+.header a {
+	text-decoration: none;
+}
+
+.button:hover {
+	color: rgb(255, 255, 255);
+	border: 1px solid white;
+}
+
+.button:hover, .button:focus {
+	color: rgb(255, 255, 255);
+	border: 1px solid white;
+}
+
+.lang a:focus {
+    color: rgb(255, 255, 255);
+}
+
+.lang {
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 15px;
+	margin-bottom: 30px;
+}
+
+.lang>p {
+	margin-top: 8px;
+	margin-right: 5px;
+}
+.lang>a {
+	margin-left: 5px;
+}
+
+.logo>h1 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 90px;
+}
+
+.logo>i {
+	transform: rotate(135deg);
+	font-size: 25px;
+	position: relative;
+	top: -108px;
+	left: 63px;
+}
+
+.logo{
+	float: left;
+	margin-top: -60px;
+}
+
+.navigation {
+	height: 50px;
+	float: left;
+}
+
+.navigation ul{
+	list-style: none;
+}
+.navigation>ul>li{
+	float: left;
+	margin: 10px 1px;
+}
+
+.navigation ul li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 12px;
+	font-size: 16px;
+}
+
+.sub>ul {
+	display: none;
+}
+
+li:hover ul {
+	display: block;
+}
+
+.navigation li:hover {
+    padding: 2px 0px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+}
+
+.navigation li:hover a {
+	color: rgb(222,122,5); 
+}
+
+.sub {
+	margin: 0px;
+}
+
+.sub1 {
+	background-color: #fff;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-radius: 5px;
+	position: relative;	
+}
+
+.sub1 a {
+	color: rgb(222,122,5);
+	padding-right: 60px;
+}
+
+.sub1 li {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.sub1 li:hover {
+	background: rgb(222,122,5);
+}
+
+.sub1 li:hover a {
+	color: #fff;
+}
+
+.basket {
+	color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0,0);
+    border: 1px solid rgb(255, 255, 255);
+    margin-left: 2%;
+    position: relative;
+	top: 10px;
+}
+
+.basket:hover {
+	background-color: rgb(255, 255, 255);
+}
+
+.basket:hover .fa-shopping-cart {
+	color: rgb(222,122,5);
+}
+
+.quantity {
+	color: black;
+}
+
+.fa-stack {
+	font-size: 12px;
+	position: relative;
+	top: -10px;
+	right: 18px;
+}
+
+.enter {
+	color: rgb(255, 255, 255);
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0,0);
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: right;
+}
+
+.contact {
+	text-decoration: underline!important;
+	color: rgb(255, 255, 255);
+}
+
+.contactus {
+	width: 250px;
+	font-size: 18px;
+	position: absolute;
+	top: 95px;
+	right: 12.5%;
+
+}
+
+.enter:hover {
+	background-color: rgb(255, 255, 255);
+	color: rgb(222,122,5);
+}
+
+.enter:hover a {
+	color: rgb(222,122,5);
+}
+
+.contact:hover {
+	color: rgb(255, 255, 255);
+}
+
+.menu {
+	height: 80px;
+	border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.content1 {
+	margin-top: 60px;
+	text-align: center;
+}
+
+.content1 h2 {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.content1 p {
+	width: 90%;
+	margin: 40px auto;
+	font-size: 15px;
+}
+
+.more {
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.more i {
+	font-size: 10px;
+	margin-left: 5px;
+	margin-bottom: 30px;
+}
+
+.buy {
+	margin-left: 30px;
+}
+
+.more:hover {
+	color: rgb(255, 255, 255);
+}
+
+
+/*Наши услуги*/
+.ourservices {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.ourservices h2 {
+	font-size: 48px;
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.ourservices p {
+	width: 90%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 15px;
+	margin-bottom: 50px;
+}
+
+.package {
+	margin-bottom: 40px;
+}
+
+.package h3 {
+	color: rgb(222,122,5);
+	margin-bottom: 20px;
+}
+
+.package p {
+	margin-bottom: 14px;
+	text-align: left;
+	margin-left: 0px;
+	font-size: 15px;
+	color: rgb(84,84,84);
+}
+
+.package i {
+	color: rgb(51, 204, 204);
+	font-size: 15px;
+}
+
+.morelite {
+	color: rgb(51, 204, 204);
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0,0);
+    border: 1px solid rgb(51, 204, 204);
+    font-size: 18px;
+}
+
+.morelite:hover {
+	background-color: rgb(51, 204, 204); 
+	color: rgb(255,255,255);
+	text-decoration: none;
+}
+
+.ourservices .logo {
+	transform: rotate(270deg);
+	position: relative;
+	top: -485px;
+	left: 40px;
+	color: rgb(222,122,5);
+}
+
+.ourservices .logo {
+	transform: rotate(270deg);
+	position: relative;
+	top: -545px;
+	left: 60px;
+	color: rgb(222,122,5);
+}
+
+.ourservices .logo h2 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 80px;
+}
+
+.ourservices .logo i {
+	position: relative;
+	top: -168px;
+	left: 55px;
+}
+
+.hand {
+	height: 800px;
+}
+
+
+/*Почему Binzly*/
+
+.why {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.why h2 {
+	font-size: 48px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 80px;
+}
+
+.why h4 {
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+
+.why>.row>.col-lg-6>p {
+	margin-left: 0px;
+	text-align: left;
+	font-size: 15px;
+	padding-right: 40px;
+	height: 130px;
+}
+
+.why a {
+	color: rgb(51, 204, 204);
+	text-decoration: underline;
+}
+
+/*Нам доверяют*/
+
+.trustus {
+	width: 75%;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 120px;
+}
+
+.trustus h2 {
+	font-size: 48px;
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.trust {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+    align-content: stretch;
+}
+
+
+.logo1 {
+	text-decoration: none;
+}
+
+.logo1:hover {
+	text-decoration: none;
+}
+
+.logo1:hover h3, .logo1:hover i  {
+	color: rgb(222,122,5);
+}
+
+
+.logo1 h3{
+	font-family: 'Roboto Slab', serif;
+	font-size: 50px;
+	color: rgb(215,215,215);
+	text-align: center;
+}
+
+.logo1 i {
+	color: rgb(215,215,215);
+	transform: rotate(135deg);
+	position: relative;
+	top: -68px;
+	left: -36px;
+	font-size: 18px;
+}
+
+.help {
+	margin-top: 130px;
+	margin-bottom: 60px;
+	display: flex;
+	justify-content: center;
+}
+
+.fa-life-ring {
+	color: rgb(222,122,5);
+	font-size: 23px;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
+.help span {
+	font-size: 23px;
+	font-weight: 600;
+}
+
+.help p {
+	font-size: 14px;
+}
+
+.helpbutton {
+	color: rgb(51, 204, 204);
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0,0);
+    border: 1px solid rgb(51, 204, 204);
+    font-size: 18px;
+    margin-top: -100px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.helpbutton:hover {
+	background-color: rgb(51, 204, 204); 
+	color: rgb(255,255,255);
+	text-decoration: none;
+}
+
+.link p {
+	font-size: 16px;
+	margin-bottom: 0px!important;
+}
+
+#hider1 {
+	display: none;
+}
+
+#hider1:checked ~ .message{
+	display: block;
+}
+
+#hider1:checked ~ .buttonmess{
+	display: block;
+	width: 160px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.message {
+	margin-top: 100px;
+	background-image: url(../img/map.png);
+	height: auto;
+	filter: grayscale(100%);
+	display: none;	
+}
+
+.message1 p {
+	text-align: center;
+	font-size: 15px;
+}
+
+.message1 {
+	background-color: rgba(255,255,255,0.9);
+	height: auto;
+}
+
+
+.input {
+	margin-top: 50px;
+}
+
+.form-name {
+	padding-left: 0px;
+	margin-bottom: 30px;
+	border-radius: 0px!important;
+}
+
+.form-mail {
+	padding-right: 0px;
+	margin-bottom: 30px;
+}
+
+.subject {
+	margin-bottom: 30px;
+}
+
+.form-control {
+    background-color: rgba(255,255,255,0)!important;
+    border-radius: 0px!important;
+    height: 50px!important;
+    font-size: 16px!important;  
+}
+
+.mess {
+	height: 220px!important;
+	padding-bottom: 150px;
+}
+
+.buttonmess{
+	color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 10px 30px;
+    text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
+    background: rgb(222, 122, 5);
+    background: -moz-linear-gradient(90deg, rgb(222, 122, 5) 30%, rgb(222, 122, 5) 70%);
+    background: -webkit-linear-gradient(90deg, rgb(222, 122, 5) 30%, rgb(222, 122, 5) 70%);
+    background: -o-linear-gradient(90deg, rgb(222, 122, 5) 30%, rgb(222, 122, 5) 70%);
+    background: -ms-linear-gradient(90deg, rgb(222, 122, 5) 30%, rgb(222, 122, 5) 70%);
+    background: linear-gradient(0deg, rgb(222, 122, 5) 30%, rgb(222, 122, 5) 70%);
+    -webkit-box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    2px 2px 1px rgba(50, 50, 50, 0.75);
+    box-shadow:         2px 2px 1px rgba(50, 50, 50, 0.75);
+    display: none;
+}
+
+
+.buttonmess{
+	position: relative;
+	top: 30px;
+	margin-bottom: 30px!important;
+}
+
+.buttonmess:hover {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+.footer {
+	background-color: rgb(34,34,34);
+	width: 100%;
+	height: auto;
+}
+
+.footer>.row {
+	width: 75%;
+	height: 100%;
+	background-color: rgb(34,34,34);
+	margin: 0 auto;
+}
+
+.footer .col-lg-6{
+	margin-top: 85px;
+	margin-left: -15px;
+}
+
+.logo2 h3{
+	font-family: 'Roboto Slab', serif;
+	font-size: 50px;
+	color: rgb(222,122,5);
+}
+
+.logo2 i {
+	color: rgb(222,122,5);
+	transform: rotate(135deg);
+	position: relative;
+	top: -68px;
+	left: 32px;
+	font-size: 18px;
+}
+
+.logo2:hover {
+	text-decoration: none;
+}
+
+.footer p {
+	color: rgb(225,225,225);
+	font-size: 15px;
+	padding-right: 120px;
+	margin-top: 25px;
+	margin-bottom: 75px;
+	line-height: 25px;
+}
+
+.footer .more {
+	color: rgb(225,225,225)!important;
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+.footer img {
+	margin-right: 10px;
+}
+
+.footermenu {
+	margin-top: 97px;
+}
+
+.footermenu a {
+	display: block;
+	color: rgb(222,122,5);
+	font-size: 15px;
+	font-weight: 600; 
+	margin-bottom: 15px;
+}
+
+.footermen {
+	margin-bottom: 5px!important;
+}
+
+.footerabout {
+	color: rgb(255,255,255)!important;
+	font-weight: 400!important;
+	margin-bottom: 5px!important;
+}
+
+.footerabout i {
+	margin-right: 5px;
+	font-weight: 0!important;
+	font-size: 11px!important;
+}
+
+.socseti {
+	margin-top: 40px;
+}
+
+.fb {
+    float: left;
+	color: rgb(255, 255, 255)!important;
+    font-size: 30px!important;
+    padding-bottom: -5px!important;
+    padding-left: 20px;
+    padding-right: 5px;
+    border-radius: 5px;
+    background: rgb(58, 85, 159);
+    margin-right: 20px;   
+}
+
+.vk {
+    float: left;
+    color: rgb(255, 255, 255)!important;
+    font-size: 30px!important;
+    padding: 0px!important;
+    padding-left: 5px!important;
+    padding-right: 5px!important;
+    margin-right: 20px;
+    border-radius: 5px;
+    background: rgb(68,103,141);    
+}
+
+.insta {
+    float: left;
+	color: rgb(34,34,34)!important;
+    font-size: 30px!important;
+    padding: 0px;
+    padding-left: 8px!important;
+    padding-right: 8px!important;
+    border-radius: 5px;
+    background: rgb(198,156,109);    
+}
+
+.footercontact {
+	margin-top: 97px;
+}
+
+.contf {
+	margin: 0px;
+	font-size: 15px;
+	margin-bottom: 11px!important;
+}
+
+.footercontact p {
+	padding-bottom: 24px;
+	margin: 0px;
+	line-height: 22px;
+}
+
+.footercontact i {
+	color: rgb(222,122,5);
+	margin-right: 5px;
+	font-weight: 600!important;
+}
+
+.mail {
+	padding-bottom: 0px!important;
+	color: rgb(222,122,5)!important;
+	font-weight: 600!important;
+}
+
+.footercontact a {
+	color: rgb(255,255,255);
+}
+
+.copyright {
+	color: rgb(255,255,255);
+	font-size: 16px;
+	text-align: center;
+	padding-right: 0px!important;
+	padding-bottom: 50px!important;
+	margin-bottom: 0px!important;	
+}
+
+.fa-copyright {
+	margin-right: 5px;
+}
+
+
+
